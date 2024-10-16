@@ -66,6 +66,7 @@ header {
   body {
    min-width: 375px;
    max-width: auto;
+   margin: 0;
   }
 #nav-pc{
   display: none;
