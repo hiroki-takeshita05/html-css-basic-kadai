@@ -13,7 +13,7 @@ p {
 /*================
 PC用のスタイル 
 =================*/
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   body {
     max-width: 1080px;
     min-width: 960px;
@@ -26,6 +26,7 @@ header {
 }
 
 #nav-pc {
+  text-align: right;
   font-size: 14px;
   padding-top: 15px;
   }
@@ -48,7 +49,11 @@ header {
     color: #0d0d0d;
   }
 
-  #menu-sp, #nav-sp {
+  #menu-sp  {
+    display: none;
+  }
+
+  #nav-sp  {
     display: none;
   }
 }
@@ -60,7 +65,7 @@ header {
 @media screen and (max-width: 767px) {
   body {
    min-width: 375px;
-   max-width: 0;
+   max-width: auto;
   }
 #nav-pc{
   display: none;
@@ -69,7 +74,7 @@ header {
   float: right;
   padding: 0;
 }
- 
+
 #nav-sp {
   background-color: #ce933e;
   position: absolute;
